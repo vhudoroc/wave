@@ -1,0 +1,5 @@
+resource "aws_key_pair" "vladimir-us-east-1" {
+  provider ="aws.us-east-1"
+  key_name = "vladimir"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCfs36jKwcOBl0ZO+8a4XbLqXiRWSKt522TRhSPQyfV9c+Xxqkclb8aEzwOapQMTfREYWfP2eC8zZoPIrZpf1TpDemMjy8X6gJdwHwZm5mMPw0cnSnN2XGYilyR7RsU/NQsoLW41NNY9AFN7pJISRkLXhkXAvhr76IrP2eXZe7V5PF2L5hU40TocwdGaJeeWLq9mta26gPLuoIWfOGmJq2scv8HWVf4dbj7Qu1q2NrD7cEWPX+4vBI3LueoItYtJGW3diuJDiOqXldV+0H2bL0CXnlf0/ri4odVo1Ro8CPycxrbDNIAfg4lWWolTv4APseGIINNorEtdFZ3k2MYy9k3 vladimir@vladimir"
+}
